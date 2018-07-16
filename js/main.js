@@ -1,5 +1,8 @@
 $(document).ready(function(){
-  var headings = $('h2');
-
-  headings.last().text('I’m Hanna Preston, and I’m learning jQuery!');
+  var paragraphs = $('p');
+  paragraphs.css({
+    'color': 'purple',
+    'font-size': '16px',
+    'line-height': '20px'
+  });
 });
